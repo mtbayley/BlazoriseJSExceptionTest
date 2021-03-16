@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <UserSecretsId>9d6e6924-76c6-4f7b-9f14-cd3dcb36463f</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Blazorise" Version="0.9.3" />
+    <PackageReference Include="Blazorise.Bootstrap" Version="0.9.3" />
+    <PackageReference Include="Blazorise.Components" Version="0.9.3" />
+    <PackageReference Include="Blazorise.DataGrid" Version="0.9.3" />
+    <PackageReference Include="Blazorise.Icons.FontAwesome" Version="0.9.3" />
+    <PackageReference Include="Blazorise.Snackbar" Version="0.9.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Properties\PublishProfiles\" />
+  </ItemGroup>
+
+</Project>

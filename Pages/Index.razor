@@ -1,0 +1,18 @@
+﻿@page "/"
+
+<h1>Hello, world!</h1>
+
+<Button Clicked="@(()=>snackbar.Show())" Color="Color.Primary">Snackbar</Button>
+
+<Snackbar @ref="snackbar" >
+    <SnackbarBody>
+        Single line of text directly related to the operation performed
+    </SnackbarBody>
+</Snackbar>
+
+@*<SurveyPrompt Title="How is Blazor working for you?" />*@
+
+@code
+{
+    Snackbar snackbar;
+}
